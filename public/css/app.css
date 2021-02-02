@@ -9693,14 +9693,27 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 40px;
 }
 
-#bigContainer p {
+#bigContainer #divEcran {
   background-color: white;
-  padding: 10px;
   border-radius: 5px;
   border: 2px black solid;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  height: 30px;
+}
+
+#bigContainer #divEcran p {
+  margin: 0px 10px;
 }
 
 .nombreBtn {
+  width: 60px;
+  margin: 8px 0px 8px 0px;
+}
+
+.opBtn {
   width: 60px;
   margin: 8px 0px 8px 0px;
 }
