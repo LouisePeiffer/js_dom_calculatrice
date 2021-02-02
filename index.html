@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./public/css/app.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+
+<!-- CALCULETTE -->
+    <section>
+        <div id="bigContainer" class="container">
+            <!-- ECRAN AFFICHAGE -->
+            <p>le chiffre devra s'afficher ici</p>
+            <!-- Première rangée -->
+            <div class="row">
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">9</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">8</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">7</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-warning" type="submit">+</button></div>
+            </div>
+            <!-- Deuxième rangée -->
+            <div class="row">
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">6</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">5</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">4</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-warning" type="submit">-</button></div>
+            </div>
+            <!-- Troisième rangée -->
+            <div class="row">
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">3</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">2</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">1</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-warning" type="submit">*</button></div>
+            </div>
+            <!-- Quatirème rangée -->
+            <div class="row">
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">C</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">0</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-primary" type="submit">.</button></div>
+                <div class="coucou col-3"><button class="nombreBtn btn btn-warning" type="submit">/</button></div>
+            </div>
+            <!-- Rangée égal -->
+            <div id="rowEgal" class="row">
+                <button id="egal" class="col-12 btn btn-light" type="submit">=</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- JS -->
+    <script src="./public/js/main.js"></script>
+    <!-- JQUERY -->
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <!--  BOOTSTRAP -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
